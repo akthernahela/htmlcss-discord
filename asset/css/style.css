@@ -57,18 +57,18 @@ h1{
     height: 400px;
 }
 
-.w-80{
-  width: 80%;
+.w-70{
+  width: 70%;
 }
 
-.w-20{
-  width: 20%;
+.w-30{
+  width: 30%;
   color: black;
 }
 
 .container-sequence{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 70px;
 
@@ -76,4 +76,85 @@ h1{
 
 h2{
     padding-bottom: 30px;
+}
+
+.meeting{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.maincontent{
+    width: 80%;
+    margin: auto;
+}
+
+.stars{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    height: 50px; 
+    text-align: center;
+}
+
+.botdown{
+    background-color: #8ea1e1;
+}
+
+footer{
+    height: 500px;
+    background-color: #23272a;
+    padding: 50px;
+}
+
+.container-closer{
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.final{
+    
+    color: white;
+    width: 40%;
+}
+
+.productfinal{
+    color: #6c82cd;
+}
+
+.products{
+    color: #6c82cd;
+    justify-content: space-between;
+
+}
+
+.search-more{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.language{
+    display: flex;
+    width: 30px;
+}
+
+#flag{
+    width: 20px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.buttomlogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.container-bottom{
+    border-top: solid #6c82cd;
 }
