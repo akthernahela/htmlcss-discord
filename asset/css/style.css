@@ -8,6 +8,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    padding: 10px;
+    vertical-align: middle;
 }
 
 .logo{
@@ -38,8 +40,8 @@ button{
 .starter{
     color: white;
     text-align: center;
-    padding: 50px;
-    width: 50%;
+    padding-top: 150px;
+    width: 45%;
     margin: auto;
 }
 
@@ -49,12 +51,14 @@ h1{
 
 .description{
     text-align: center;
+    height: 100px;
+    line-height: 1.5rem;
 }
 
 .container-small{
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 .w-70{
@@ -76,6 +80,7 @@ h1{
 
 h2{
     padding-bottom: 30px;
+    font-size: xx-large;
 }
 
 .meeting{
@@ -105,7 +110,8 @@ h2{
 footer{
     height: 500px;
     background-color: #23272a;
-    padding: 50px;
+    padding: 80px;
+    margin: auto;
 }
 
 .container-closer{
@@ -127,6 +133,7 @@ footer{
 .products{
     color: #6c82cd;
     justify-content: space-between;
+    line-height: 2rem;
 
 }
 
